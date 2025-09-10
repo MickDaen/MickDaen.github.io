@@ -1,0 +1,93 @@
+.index-part1 {
+    width: 100%;
+    background: $grey1;
+    padding: 50px 0;
+
+    .part1-container {
+        margin: 0 auto;
+        padding: 50px;
+        width: 90%;
+        max-width: 1300px;
+        background: $white;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: space-between;
+
+        .part1-part {
+            h2 {
+                font-family: $font1;
+                font-size: 2rem;
+                margin-bottom: 15px;
+            }
+
+            .btn-plus {
+                color: $white;
+                background: $blue;
+                padding: 10px;
+                font-family: $font2;
+                font-size: 0.8rem;
+            }
+
+            .part1-img-container {
+                margin-top: 50px;
+                display: grid;
+                grid-template-columns: 48% 48%;
+                justify-content: space-between;
+                gap: 30px 20px;
+
+                .part1-img {
+                    height: auto;
+                    max-width: 250px;
+                    position: relative;
+                    
+                    &:hover p {
+                        visibility: visible;
+                    }
+
+                    p {
+                        position: absolute;
+                        font-size: 2rem;
+                        font-family: $font1;
+                        color: $black;
+                        visibility: hidden;
+                        background: $white;
+                        text-align: center;
+                        margin: 0;
+                        padding: 5px 10px;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+
+                    img {
+                        object-fit: contain;
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+
+                #real1:hover {
+                    background: url(../img/Realisations/vignette2hover2.jpg) center/cover;
+                }
+
+                #real2:hover {
+                    background: url(../img/Realisations/vignette4hover2.jpg) center/cover;
+                }
+
+                #real3:hover {
+                    background: url(../img/Realisations/vignette5hover.jpg) center/cover;
+                }
+
+                #real4:hover {
+                    background: url(../img/Realisations/vignette7hover.jpg) center/cover;
+                }
+            }
+        }
+
+        .part1-left-part {
+            .part1-img:hover img {
+                visibility: hidden;
+            }
+        }
+    }
+}

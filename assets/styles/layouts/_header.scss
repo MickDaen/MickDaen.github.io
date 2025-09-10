@@ -1,0 +1,135 @@
+header {
+    padding: 20px 0 0;
+    background: $white;
+
+    nav {
+        z-index: 100;
+        background: $blue;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%);
+        padding: 0 25px;
+        display: grid;
+        grid-template-columns: 5% 80% 15%;
+        align-items: center;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1300px;
+        height: 100px;
+        color: white;
+        text-transform: uppercase;
+        @include title;
+        transition: 0.2s ease;
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 100%;
+                    cursor: pointer;
+                    transition: 0.2s ease;
+                }
+            }
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            user-select: none;
+
+            li {
+                cursor: pointer;
+
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .header-bottom {
+        width: 90%;
+        max-width: 1300px;
+        margin: 100px auto 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 50px 20px;
+
+        .header-bottom-left {
+            display: flex;
+            justify-content: center;
+
+            .header-bl-container {
+                width: 100%;
+
+                h1 {
+                    font-family: $font1;
+                }
+
+                p {
+                    font-family: $font2;
+                    font-weight: 400;
+                    font-size: 1rem;
+                    line-height: 24px;
+                }
+
+                h2 {
+                    font-family: $font2;
+                    font-weight: 700;
+                    font-size: 1rem;
+                }
+
+                .importantMessage {
+                    color: $blue;
+                }
+
+                .headerLink {
+                    font-weight: 700;
+                    cursor: pointer;
+                } 
+
+                .email {
+                    text-align: center;
+                    padding: 10px 0;
+                    color: $blue;
+                    font-size: 1.2rem;
+                    border: 1px solid $blue;
+                }
+            }
+        }
+
+        .header-bottom-right {
+            display: flex;
+            justify-content: center;
+
+            .header-br-container {
+                height: auto;
+                max-width: 500px;
+                img {
+                    object-fit: contain;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        .header-bottom-right-img {
+            padding: 50px 130px;
+
+            .header-img-container {
+                width: 100%;
+                min-width: 300px;
+                height: 100%;
+                background: url(../img/imgProfil.png) center/cover;
+            }
+        }
+    }
+}

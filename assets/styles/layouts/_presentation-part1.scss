@@ -1,0 +1,40 @@
+.presention-part1 {
+    padding: 0px 0px 100px;
+    background: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .pre-part1-container {
+        width: 90%;
+        max-width: 1300px;
+        display: flex;
+        justify-content: space-between;
+
+        h2 {
+            font-family: $font1;
+            font-weight: 500;
+            font-size: 1.2rem;
+            display: inline-block;
+            padding: 5px 15px;
+            border: 1px solid $black;
+            user-select: none;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: $font2;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 24px;
+        }
+
+        .pre-part1-left-part {
+            width: 45%;
+        }
+
+        .pre-part1-right-part {
+            width: 45%;
+        }
+    }
+}

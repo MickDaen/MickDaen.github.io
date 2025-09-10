@@ -1,0 +1,20 @@
+footer {
+    background: $grey1;
+    padding: 30px 0 30px;
+    color: white;
+
+    .footer-container {
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1300px;
+        text-align: center;
+
+        h3 {
+            margin: 0;
+            font-family: $font1;
+            font-size: 1rem;
+            font-weight: 500;
+            user-select: none;
+        }
+    }
+}

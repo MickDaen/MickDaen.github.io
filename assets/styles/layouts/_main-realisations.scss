@@ -1,0 +1,62 @@
+.main-realisations {
+    background: $white;
+    padding-top: 100px;
+
+    .realisations-part1 {
+        .realisations-part1-container {
+            width: 90%;
+            max-width: 1300px;
+            margin: 0 auto;
+
+            .realisations-top-part {
+                padding: 50px 0;
+
+                .real-tp-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+
+                    .classeur {
+                        font-family: $font1;
+                        font-weight: 500;
+                        padding: 5px 10px;
+                        font-size: 1.2rem;
+                        border: 1px solid $blue;
+                        margin: 0;
+                        user-select: none;
+                        cursor: pointer;
+                    }
+
+                    #real-all {
+                        background: $blue;
+                        color: $white;
+                    }
+                }
+            }
+
+            .realisations-bot-part {
+                padding: 50px 0;
+
+                .real-bp-container {
+                    display: grid;
+                    grid-template-columns: 30% 30% 30%;
+                    justify-content: center;
+                    gap: 20px;
+
+                    .wallimage {
+                        height: auto;
+                        max-width: 400px;
+
+                        img {
+                            object-fit: contain;
+                            height: 100%;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
