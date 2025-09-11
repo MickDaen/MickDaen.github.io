@@ -221,6 +221,7 @@ header .header-bottom .header-bottom-right-img .header-img-container {
   color: #0A0A0A;
   visibility: hidden;
   background: #FAFAFA;
+  border: 1px solid #0A0A0A;
   text-align: center;
   margin: 0;
   padding: 5px 10px;
@@ -234,21 +235,6 @@ header .header-bottom .header-bottom-right-img .header-img-container {
      object-fit: contain;
   height: 100%;
   width: 100%;
-}
-.index-part1 .part1-container .part1-part .part1-img-container #real1:hover {
-  background: url(../img/Realisations/vignette2hover2.jpg) center/cover;
-}
-.index-part1 .part1-container .part1-part .part1-img-container #real2:hover {
-  background: url(../img/Realisations/vignette4hover2.jpg) center/cover;
-}
-.index-part1 .part1-container .part1-part .part1-img-container #real3:hover {
-  background: url(../img/Realisations/vignette5hover.jpg) center/cover;
-}
-.index-part1 .part1-container .part1-part .part1-img-container #real4:hover {
-  background: url(../img/Realisations/vignette7hover.jpg) center/cover;
-}
-.index-part1 .part1-container .part1-left-part .part1-img:hover img {
-  visibility: hidden;
 }
 
 .presention-part1 {

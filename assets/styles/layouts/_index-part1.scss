@@ -51,6 +51,7 @@
                         color: $black;
                         visibility: hidden;
                         background: $white;
+                        border: 1px solid $black;
                         text-align: center;
                         margin: 0;
                         padding: 5px 10px;
@@ -65,28 +66,6 @@
                         width: 100%;
                     }
                 }
-
-                #real1:hover {
-                    background: url(../img/Realisations/vignette2hover2.jpg) center/cover;
-                }
-
-                #real2:hover {
-                    background: url(../img/Realisations/vignette4hover2.jpg) center/cover;
-                }
-
-                #real3:hover {
-                    background: url(../img/Realisations/vignette5hover.jpg) center/cover;
-                }
-
-                #real4:hover {
-                    background: url(../img/Realisations/vignette7hover.jpg) center/cover;
-                }
-            }
-        }
-
-        .part1-left-part {
-            .part1-img:hover img {
-                visibility: hidden;
             }
         }
     }
