@@ -123,8 +123,22 @@ header .header-bottom .header-bottom-left .header-bl-container p {
 }
 header .header-bottom .header-bottom-left .header-bl-container h2 {
   font-family: "Libre Baskerville", serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1rem;
+}
+header .header-bottom .header-bottom-left .header-bl-container .presentation-h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 5px 15px;
+  border: 1px solid #0A0A0A;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 header .header-bottom .header-bottom-left .header-bl-container .importantMessage {
   color: #1a0bf0;
@@ -237,55 +251,6 @@ header .header-bottom .header-bottom-right-img .header-img-container {
   width: 100%;
 }
 
-.presention-part1 {
-  padding: 0px 0px 100px;
-  background: #FAFAFA;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.presention-part1 .pre-part1-container {
-  width: 90%;
-  max-width: 1300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.presention-part1 .pre-part1-container h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 1.2rem;
-  display: inline-block;
-  padding: 5px 15px;
-  border: 1px solid #0A0A0A;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  margin-bottom: 20px;
-}
-.presention-part1 .pre-part1-container p {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 24px;
-}
-.presention-part1 .pre-part1-container .pre-part1-left-part {
-  width: 45%;
-}
-.presention-part1 .pre-part1-container .pre-part1-right-part {
-  width: 45%;
-}
-
 .main-realisations {
   background: #FAFAFA;
   padding-top: 100px;
@@ -345,6 +310,156 @@ header .header-bottom .header-bottom-right-img .header-img-container {
   max-width: 400px;
 }
 .main-realisations .realisations-part1 .realisations-part1-container .realisations-bot-part .real-bp-container .wallimage img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.real-part1 {
+  background: #FAFAFA;
+  margin-top: -100px;
+}
+.real-part1 .real-part1-container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1500px;
+  padding: 20px;
+  display: grid;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  grid-template-columns: 33% 33% 33%;
+}
+.real-part1 .real-part1-container .real-part1-img {
+  height: auto;
+  max-width: 500px;
+}
+.real-part1 .real-part1-container .real-part1-img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+  width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.real-bottom-btn {
+  background: #FAFAFA;
+}
+.real-bottom-btn .real-bot-btn-container {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 90%;
+  max-width: 1500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.real-bottom-btn .real-bot-btn-container .real-btn a h3 {
+  color: #0A0A0A;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 15px;
+  background: none;
+  border: 1px solid #0A0A0A;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.real-bottom-btn .real-bot-btn-container .real-btn a i {
+  font-size: 1rem;
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+
+.services-part1 {
+  padding: 0px 0px 100px;
+  background: #FAFAFA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.services-part1 .ser-part1-container {
+  width: 90%;
+  max-width: 1300px;
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-template-columns: 48% 48%;
+}
+.services-part1 .ser-part1-container .ser-part1-services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1px solid #0A0A0A;
+}
+.services-part1 .ser-part1-container .ser-part1-services .services-left-part {
+  width: 60%;
+}
+.services-part1 .ser-part1-container .ser-part1-services .services-left-part .services-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 5px 15px;
+  border: 1px solid #0A0A0A;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin-bottom: 20px;
+  color: #0A0A0A;
+}
+.services-part1 .ser-part1-container .ser-part1-services .services-left-part .services-btn i {
+  font-size: 0.8rem;
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+.services-part1 .ser-part1-container .ser-part1-services .services-left-part .services-btn:hover {
+  background: #1a0bf0;
+  border-color: #1a0bf0;
+  color: #FAFAFA;
+}
+.services-part1 .ser-part1-container .ser-part1-services .services-left-part p {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+}
+.services-part1 .ser-part1-container .ser-part1-services .services-left-part .importantMessage {
+  color: #1a0bf0;
+  font-weight: 700;
+}
+.services-part1 .ser-part1-container .ser-part1-services .services-right-part {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.services-part1 .ser-part1-container .ser-part1-services .services-right-part .services-img-container {
+  height: auto;
+  max-width: 200px;
+}
+.services-part1 .ser-part1-container .ser-part1-services .services-right-part .services-img-container img {
   -o-object-fit: contain;
      object-fit: contain;
   height: 100%;
